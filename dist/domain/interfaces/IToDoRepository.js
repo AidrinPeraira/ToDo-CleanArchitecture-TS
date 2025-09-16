@@ -5,5 +5,5 @@
  *
  * This interface should define the methods needed for persistence,
  */
-import { ToDo } from "../entities/Todo.js";
+export {};
 //# sourceMappingURL=IToDoRepository.js.map

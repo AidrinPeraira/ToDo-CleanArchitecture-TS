@@ -3,7 +3,13 @@ import type { ToDo } from "../../domain/entities/Todo.js";
 
 //we'll  combine mongodb document shape and our todo shape
 
-interface IToDoDocument extends ToDo, Document {} //this is not multiple inheritence it is multiple extendion of interfaces a.k.a composition
+interface IToDoDocument extends Document {
+  toDoId: string;
+  title: string;
+  description: string;
+  completed: boolean;
+  createdAt: Date;
+} //this is not multiple inheritence it is multiple extendion of interfaces a.k.a composition
 
 const ToDoSchema: Schema = new Schema({
   // we don't add id here  to prevent clash

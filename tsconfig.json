@@ -8,8 +8,8 @@
     "strict": true,
 
     /* Module Configuration */
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
+    "module": "es2022",
+    "moduleResolution": "node",
 
     /* Output */
     "rootDir": "./src",

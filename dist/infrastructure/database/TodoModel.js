@@ -1,4 +1,4 @@
-import mongoose, { Schema, Document } from "mongoose";
+import mongoose, { Schema } from "mongoose";
 const ToDoSchema = new Schema({
     // we don't add id here  to prevent clash
     toDoId: {
