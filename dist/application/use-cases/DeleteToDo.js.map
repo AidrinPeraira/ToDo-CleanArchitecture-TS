@@ -1,0 +1,1 @@
+{"version":3,"file":"DeleteToDo.js","sourceRoot":"","sources":["../../../src/application/use-cases/DeleteToDo.ts"],"names":[],"mappings":"AAEA,MAAM,OAAO,UAAU;IACQ;IAA7B,YAA6B,cAA+B;QAA/B,mBAAc,GAAd,cAAc,CAAiB;IAAG,CAAC;IAEhE,KAAK,CAAC,OAAO,CAAC,MAAc;QAC1B,OAAO,MAAM,IAAI,CAAC,cAAc,CAAC,MAAM,CAAC,MAAM,CAAC,CAAC;IAClD,CAAC;CACF"}

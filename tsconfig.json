@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    /* Base Options */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "esnext",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+
+    /* Module Configuration */
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+
+    /* Output */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Source Maps for Debugging */
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
